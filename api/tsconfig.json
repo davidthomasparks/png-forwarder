@@ -9,12 +9,13 @@
         "strict": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitReturns": true,
-        "noEmitOnError": true,
+        "noEmitOnError": false,
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "esModuleInterop": true
+        "esModuleInterop": true,
+         "noEmit": false,
     },
     "include": [
         "./"
